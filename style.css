@@ -1,0 +1,52 @@
+/* body{
+    background-color: black;
+    color: white;
+    margin: 2rem;
+} */
+
+.app_title{
+    margin-left: 8rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.container{
+    border: 0.1rem solid black;
+    border-radius: 1.5rem;
+    margin: 2rem;
+    padding: 1rem;
+    max-width: 18rem;
+    background-color: rgb(186, 244, 186);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+.key{
+    border: 0.2rem solid blcak;
+    border-radius: 2rem;
+    /* color: white; */
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 0.3rem;
+}
+
+.key:hover{
+    background-color: rgb(43, 239, 17);
+    color: white;
+}
+
+.expression{
+    font-size: 2rem;
+    padding-bottom: 0.4rem;
+}
+
+.exp_result{
+    font-size: 2rem;
+    padding-bottom: 1.411123rem;
+}

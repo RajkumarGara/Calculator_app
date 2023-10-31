@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <p class="app_title"> Calculator </p>
+    <div class="container">
+
+        <div class="expression">
+            
+        </div>
+
+        <div class="exp_result">
+            result
+        </div>
+
+        <div class="row">
+            <button class="key" onclick="element_reset()">AC</button>
+            <button class="key" onclick="element(Nil)">Nil</button>
+            <button class="key" onclick="operation('%')">%</button>
+            <button class="key" onclick="operation('/')">/</button>
+        </div>
+
+        <div class="row">
+            <button class="key" onclick="element('7')">7</button>
+            <button class="key" onclick="element('8')">8</button>
+            <button class="key" onclick="element('9')">9</button>
+            <button class="key" onclick="operation('x')">x</button>
+        </div>
+
+        <div class="row">
+            <button class="key" onclick="element('4')">4</button>
+            <button class="key" onclick="element('5')">5</button>
+            <button class="key" onclick="element('6')">6</button>
+            <button class="key" onclick="operation('-')">-</button>
+        </div>
+
+        <div class="row">
+            <button class="key" onclick="element('1')">1</button>
+            <button class="key" onclick="element('2')">2</button>
+            <button class="key" onclick="element('3')">3</button>
+            <button class="key" onclick="operation('+')">+</button>
+        </div>
+
+        <div class="row">
+            <button class="key" onclick="element(Nil)">Nil</button>
+            <button class="key" onclick="element('0')">0</button>
+            <button class="key" onclick="element(Nil)">Nil</button>
+            <button class="key" onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+</html>
